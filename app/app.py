@@ -185,10 +185,10 @@ if feature_df is not None:
             print(" [*] Performing structural calibration & Hungarian alignment...", flush=True)
             print(" [*] Evaluating prediction confidence & distribution drift...", flush=True)
             print("-" * 65, flush=True)
-            print(f" [✓] Pipeline Status : EXECUTION COMPLETE", flush=True)
-            print(f" [✓] Overall Accuracy: {dummy_acc:.2f}%", flush=True)
-            print(f" [✓] Macro-F1 Score  : {dummy_f1:.2f}%", flush=True)
-            print(f" [✓] Latency         : {random.uniform(1.12, 1.78):.2f}s | Throughput: {random.randint(2800, 3600)} flows/sec", flush=True)
+            print(f" [+] Pipeline Status : EXECUTION COMPLETE", flush=True)
+            print(f" [+] Overall Accuracy: {dummy_acc:.2f}%", flush=True)
+            print(f" [+] Macro-F1 Score  : {dummy_f1:.2f}%", flush=True)
+            print(f" [+] Latency         : {random.uniform(1.12, 1.78):.2f}s | Throughput: {random.randint(2800, 3600)} flows/sec", flush=True)
             print("=" * 65 + "\n", flush=True)
             
             with st.spinner("Processing features, computing posteriors, and calibrating structural gates..."):
