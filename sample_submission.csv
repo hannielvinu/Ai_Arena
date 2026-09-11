@@ -1,0 +1,6 @@
+sample_id,predicted_class,confidence
+CSHT_0000,normal,0.5
+CSHT_0001,normal,0.5
+CSHT_0002,normal,0.5
+CSHT_0003,normal,0.5
+CSHT_0004,normal,0.5

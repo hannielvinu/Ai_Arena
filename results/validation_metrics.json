@@ -1,0 +1,26 @@
+{
+  "conventional_baseline": {
+    "accuracy": 0.3028,
+    "macro_f1": 0.29069244332893657,
+    "macro_precision": 0.2879850439509938,
+    "macro_recall": 0.30279999999999996
+  },
+  "structural_calibration_experiment": {
+    "accuracy": 0.3028,
+    "macro_f1": 0.29069244332893657,
+    "recovered_permutation": [
+      "backdoor",
+      "normal",
+      "recon",
+      "dos",
+      "fuzzer",
+      "shellcode",
+      "exploit",
+      "analysis",
+      "worm",
+      "generic"
+    ],
+    "chunk_consensus": 3,
+    "mean_margin": 0.03710291029790151
+  }
+}
